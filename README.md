@@ -15,7 +15,7 @@
 | App | Description | Features |
 | :--- | :--- | :--- |
 | **📝 Aub Markdown Editor** | A markdown text editor | Live HTML rendering, Text Analytics, and Local Storage Auto-Save |
-| **🎨 Aub Hex Color Picker** | A Flat-styled Color Utility | Eye-drop and pick Hexadecimal Colors |
+| **🎨 Aub Hex Color Picker** | A Flat-styled Hexademical Toool | Eye-drop and pick Hexadecimal Colors |
 | **🔑 Aub Password Generator** | A Secure Password Generator | Generate secure random passwords, Adjustable password length (8–64 characters), Toggle lowercase (a-z), uppercase (A-Z), numbers(0-9), and symbols (!@#$%?), and Copy password to clipboard |
 
 ---
