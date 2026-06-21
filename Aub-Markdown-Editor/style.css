@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace; 
+    letter-spacing: 0.05em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #333;
+}
+
+button {
+    padding: 6px 12px;
+    margin-left: 8px;
+    background-color: #d26ffc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.btn-danger {
+    background-color: #d9534f
+}
+
+textarea, .markdown-body {
+    flex: 1;
+    padding: 24px;
+    font-size: 1rem;
+    line-height: 1.8;
+    border: none;
+    resize: none;
+    outline: none;
+    overflow-y: auto;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2f2f2;
+}
+
+.actionbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.actionbar h1 {
+    font-size: 30px;
+}
+
+.panel1 {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.pane {
+    background-color: #ffffff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    align-content: center;
+}
+
+.pane:last-child {
+    border-right: none;
+}
+
+.pane-header {
+    background-color: #eee;
+    padding: 12px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+
+.status {
+    display: flex;
+    gap: 20px;
+    padding: 8px 20px;
+    background-color: #222;
+    color: #aaa;
+    font-size: 1.3rem;
+}
+
+.markdown-body h1 { 
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
+    margin-bottom: 10px;
+}
+
+.markdown-body p { margin-bottom: 10px; }
+.markdown-body strong { color: #000; }
+.markdown-body em { color: #555; }
+
+body.dark-theme {
+    color: #e0e0e0;
+}
+
+body.dark-theme .pane {
+    background-color: #160C1B;
+    border-right: 1px solid #2d1b34;
+}

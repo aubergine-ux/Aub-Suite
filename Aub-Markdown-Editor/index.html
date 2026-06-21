@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aub Markdown Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="actionbar">
+        <h1>Aub Editor</h1>
+        <div class="actions">
+            <button id="bdark" class="dark-toggle">Dark Mode</button>
+
+            <button id="bdmd">Download Markdown</button>
+            <button id="bdhtml">Export HTML</button>
+            <button id="bclear">Clear</button>
+        </div>
+    </header>
+
+    <div class="status">
+        <span id="sword">Words: 0</span>
+        <span id="schars">Characters: 0</span>
+        <span id="srt">Read Time: 0m</span>
+    </div>
+
+    <main class="panel1">
+        <section class="pane">
+            <div class="pane-header">Markdown Input</div>
+            <textarea id="markdown-input" placeholder="Type your #Markdown here..."></textarea>
+        
+        </section>
+    </main>
+
+    <section class="pane">
+            <div class="pane-header">Live Preview</div>
+            <div id="preview-output" class="markdown-body"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

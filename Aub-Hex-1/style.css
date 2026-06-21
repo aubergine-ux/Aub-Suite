@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+    font-family: monospace;
+    letter-spacing: 0.05em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.main {
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+    gap: 15px;
+    background: linear-gradient(150deg, #ae6ef3, #d26ffc);
+    border: 5px solid #372041;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#colorPicker {
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#box {
+    background-color: lightgray;
+    color: #000;
+    font-size: 1.5em;
+    outline: none;
+    border: 2px solid darkgray;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    padding: 0 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aub Suite Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>Aub Suite</h2>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <button class="nav-btn active" data-target="Aub-Markdown-Editor/index.html">
+                    📝 Markdown Editor
+                </button>
+            </li>
+            <li>
+                <button class="nav-btn" data-target="Aub-Hex-1/aubhex.html">
+                    🎨 Hex Color Picker
+                </button>
+            </li>
+            <li>
+                <button class="nav-btn" data-target="Aub-Pass-2/index.html">
+                    🔑 Password Generator
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <iframe id="app-frame" src="Aub-Markdown-Editor/index.html" frameborder="0"></iframe>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
