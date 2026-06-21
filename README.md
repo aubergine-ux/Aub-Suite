@@ -21,8 +21,4 @@
 ---
 
 ## Credits
-<<<<<<< HEAD
 [Aub-Pass](https://github.com/aubergine-ux/Aub-Password-Generator) by Aubergine-UX
-=======
-[Aub-Pass](https://github.com/aubergine-ux/Aub-Password-Generator) by Aubergine-UX
->>>>>>> 0eacc86 (AUB v26.1 | Initial Release)
