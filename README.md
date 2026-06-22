@@ -23,5 +23,5 @@
 ---
 
 ## Credits
-[Aub-Pass](https://github.com/aubergine-ux/Aub-Password-Generator) by Aubergine-UX
+[Aub-Pass](https://github.com/aubergine-ux/Aub-Password-Generator)
 [Calculator Tutorial](https://youtu.be/KM8PIiqq97c)
