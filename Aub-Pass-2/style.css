@@ -10,7 +10,7 @@ body {
 }
 
 #password-gen {
-    background-color: #d26ffc;
+    background: linear-gradient(150deg, #ae6ef3, #d26ffc);
     border: 5px solid #372041;
     width: 500px;
     height: 250px;
