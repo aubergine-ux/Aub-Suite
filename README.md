@@ -4,7 +4,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/aubergine-ux/Crimstone-Bot?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/aubergine-ux/Aub-Suite?style=for-the-badge)
 
 **Aub Suite**, a sleek, dark-themed utility dashboard containing everything you need.
 
