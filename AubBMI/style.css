@@ -1,0 +1,99 @@
+html {
+    background-color: #2d1b34;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+#container {
+    background: linear-gradient(150deg, #ae6ef3, #d26ffc);
+    height: 300px;
+    width: 550px;
+    margin: 0 auto;
+    border: 5px solid #1f1324;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+#weight-input {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+}
+
+#wlabel {
+    font-weight: 700;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#height-input {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+}
+
+#hlabel {
+    font-weight: 700;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#bmi-output {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+}
+
+#bmilabel {
+    font-weight: 700;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#btn {
+    font-weight: 700;
+    height: 25px;
+    width: 75px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#table {
+    background: linear-gradient(150deg, #ae6ef3, #d26ffc);
+    height: 100px;
+    width: 550px;
+    margin: 0 auto;
+    border: 5px solid #1f1324;
+}
+
+table,  th, td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
