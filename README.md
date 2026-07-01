@@ -17,11 +17,13 @@
 | **📝 Aub Markdown Editor** | A markdown text editor | Live HTML rendering, Text Analytics, and Local Storage Auto-Save |
 | **🎨 Aub Hex Color Picker** | A Flat-styled Hexademical Toool | Eye-drop and pick Hexadecimal Colors |
 | **🔑 Aub Password Generator** | A Secure Password Generator | Generate secure random passwords, Adjustable password length `(8–64 characters)`, Toggle lowercase `(a-z), uppercase (A-Z), numbers(0-9), and symbols (!@#$%?)`, and Copy password to clipboard |
-| **🎨 Aub Calculator** | A Simple Mobile-Style Calculator | Basic Calculator `(+, -, *, /)`, Percentage & Sign Toggle `(+,-)`, Click-To-Copy on display! |
-| **🎨 Aub To Do List** | A Localstorage To-Do List | Add Todos by typing and hitting Enter (or clicking ADD), Delete individual Todos, Todos saved automatically to `localStorage` |
+| **💪 Aub BMI Calculator** | A Simple BMI Calculator | Calculates BMI from Weight (kg) and Height (cm), Instant results on click |
+| **📐 Aub Calculator** | A Simple Mobile-Style Calculator | Basic Calculator `(+, -, *, /)`, Percentage & Sign Toggle `(+,-)`, Click-To-Copy on display! |
+| **📋 Aub To Do List** | A Localstorage To-Do List | Add Todos by typing and hitting Enter (or clicking ADD), Delete individual Todos, Todos saved automatically to `localStorage` |
 
 ---
 
 ## Credits
 [Aub-Pass](https://github.com/aubergine-ux/Aub-Password-Generator)
+
 [Calculator Tutorial](https://youtu.be/KM8PIiqq97c)
